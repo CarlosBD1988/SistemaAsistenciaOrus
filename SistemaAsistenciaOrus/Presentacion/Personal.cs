@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace SistemaAsistenciaOrus.Presentacion
 {
-    public partial class MenuPrincipal : Form
+    public partial class Personal : UserControl
     {
-        public MenuPrincipal()
+        public Personal()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -26,9 +21,14 @@ namespace SistemaAsistenciaOrus.Presentacion
 
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
-            panelBienvenida.Dock = DockStyle.Fill;
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
