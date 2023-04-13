@@ -30,5 +30,13 @@ namespace SistemaAsistenciaOrus.Presentacion
         {
             panelBienvenida.Dock = DockStyle.Fill;
         }
+
+        private void btnPersonal_Click(object sender, EventArgs e)
+        {
+            Personal UcPersonal = new Personal();
+            panelPrincipal.Controls.Clear();
+            UcPersonal.Dock = DockStyle.Fill;
+            panelPrincipal.Controls.Add(UcPersonal);
+        }
     }
 }

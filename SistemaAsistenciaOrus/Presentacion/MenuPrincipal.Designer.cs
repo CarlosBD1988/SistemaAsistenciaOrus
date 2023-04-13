@@ -297,6 +297,7 @@ namespace SistemaAsistenciaOrus.Presentacion
             this.btnPersonal.TabIndex = 2;
             this.btnPersonal.Text = "Personal";
             this.btnPersonal.UseVisualStyleBackColor = false;
+            this.btnPersonal.Click += new System.EventHandler(this.btnPersonal_Click);
             // 
             // btnConsultas
             // 
