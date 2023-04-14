@@ -33,8 +33,8 @@ namespace SistemaAsistenciaOrus.Presentacion
 
         private void btnPersonal_Click(object sender, EventArgs e)
         {
-            Personal UcPersonal = new Personal();
             panelPrincipal.Controls.Clear();
+            Personal UcPersonal = new Personal();            
             UcPersonal.Dock = DockStyle.Fill;
             panelPrincipal.Controls.Add(UcPersonal);
         }
